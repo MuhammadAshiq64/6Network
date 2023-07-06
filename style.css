@@ -1,0 +1,168 @@
+body,p,span,div,h1,h2,h3,h4,h5,h6,u,i,b{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+     background: url(5992112.jpg);
+     background-size:100% 100% ;
+     color: white;
+     
+
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/glitch126.ttf);
+}
+
+
+.name{
+    font-family: myFirstFont;
+    font-size: 4.5em;
+    text-align: center;
+}
+.flx{
+    display: flex;
+}
+.twodivinoneline{
+    
+    height: 40vh;
+    width: 50%;
+    border: solid white 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.status{
+    font-size: 1em;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+
+.globalsearch{
+
+height: 150px;
+width:  150px;
+margin-top:10px;
+
+}
+
+.globalsearchtwo{
+    height: 90px;
+    width:  90px;
+}
+
+.membernotification{
+    text-align: left;
+    padding: 5px;
+    text-transform: capitalize;
+    
+}
+.innerdiv{
+    width: 100px;
+    margin: 0px auto;
+    text-transform: capitalize;
+}
+.redcolor{
+    color: green;
+}
+.whitecolor{
+    color: white;
+}
+.userintro{
+    text-align: left;
+    display: flex;
+}
+
+ .cntrpic{
+    text-align: center;
+    align-items: center;
+}
+.thelogo6{
+position: relative;
+bottom: 95px;
+font-size: 28px;
+}
+
+.admanname{
+    margin-left: 10px;
+    text-transform: capitalize;
+    width: 190px;
+}
+.ntkinfoname{
+    margin-left: 60px;
+    width: 200px;
+    text-transform: capitalize;
+}
+.ntkinfonum{
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.ntkinfodiscription{
+    width: 90%;
+    margin: 0px auto;
+    text-transform: capitalize;
+}
+.rottmeter{
+    transform: rotate(270deg);
+}
+
+.meterpara{
+    text-align: start;
+    margin-left: 10px;
+}
+.flxwraap{
+    display: flex;
+}
+@media screen and (max-width: 730px) {
+    .flxwraap{
+    flex-wrap: wrap;
+    }
+.twodivinoneline{
+    width: 90vw;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.main{
+    margin-left: 20px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 460px) {
+.flx460{
+    flex-wrap: wrap;
+}
+.twodivinoneline460{
+height: 180px;
+}
+.ntkinfoname{
+    margin-left: 30px;
+}
+.flxwraap{
+    flex-direction: colum-reverse;
+}
+
+}
+@media screen and (max-width: 460px){
+    .ntkinfonum{
+        margin-left: 0px;
+    }
+
+.name{
+font-size:  54px;
+margin: 10px;
+}
+.flxwraap{
+    flex-direction: column-reverse;
+}
+
+
+
+}
